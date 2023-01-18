@@ -22,11 +22,10 @@ mongoose.connect(CONNECTION_URL, {
  /* .then(() => app.listen(PORT, console.log('Server running on port: ${PORT}')))
   .catch((error) => console.log(error.massage));*/
 
- /*mongoose.set('useFindAndModify', false); 
+ /*mongoose.set('useFindAndModify', false); */
 
  app.get('/', (req, res) => {
   res.send('hello world')
  }
  )
-*/
 app.listen(5000,(console.log('Server running on port: 5000')))
